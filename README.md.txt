@@ -1,0 +1,3 @@
+About:
+
+The purpose of this paper is to present an analysis of Oil, its supply, demand and related prices in the World and the economic impact of Oil in Geopolitics/Geoeconomics. It also explains the environmental impact, potential/current alternative energy sources and related global efforts like COP26. This paper tries to give an outlook on the global Oil prices, status of oil cartel (OPEC), global growth and environmental impact. The paper also explains the determinants of oil supply and price throughout the world using a multiple linear regression model.

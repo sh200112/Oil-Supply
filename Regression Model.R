@@ -1,0 +1,14 @@
+price=read.csv(file.choose(),header=T,sep=",")
+demand=read.csv(file.choose(),header=T,sep=",")
+supply=read.csv(file.choose(),header=T,sep=",")
+population=read.csv(file.choose(),header=T,sep=",")
+inflation=read.csv(file.choose(),header=T,sep=",")
+price=price$Year.Close
+demand=demand$Oil.Consumption..in.TWh.
+supply=supply$Production..in.TWh.
+population=population$Population
+inflation=inflation$Inflation.Rate....
+oilprice=lm(price~demand+supply+population+inflation)
+oilprice
+summary(oilprice)
+plot(oilprice)
